@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather - Api Project</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+</head>
+
+<body>
+    <div class="main">
+
+
+        <!--running screen-->
+        <div class="screen running-screen active">
+            <div class="search-bar">
+                <input type="text" placeholder="Search City" required>
+                <span class="search-icon">
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                </span>
+            </div>
+
+            <div class="location-and-date">
+                <div class="location">
+                    <span class="location-icon">
+                        <i class="fa-solid fa-location-dot"></i>
+                    </span>
+                    <span class="location-name">
+                        city
+                    </span>
+                </div>
+
+                <div class="date">
+                    <span class="day">day,</span>
+                    <span class="date">date</span>
+                    <span class="month">month</span>
+                </div>
+            </div>
+
+            <div class="image-and-temp">
+                <span class="image"><img src="images.jpg" alter="temp image"></span>
+                <span class="temp">
+                    <span class="temp-no">no'C</span>
+                    <span class="temp-name ">tempName</span>
+                </span>
+            </div>
+
+            <div class="details">
+                <div class="container">
+                    <span class="humidity-icon"><i class="fa-solid fa-droplet"></i></span>
+                    <span class="two-block">
+                        <span class="detail-heading">Humidity</span>
+                        <span><span class="humidity-no">0</span>%</span>
+                    </span>
+
+
+                </div>
+
+                <div class="container">
+                    <span class="wind-icon"><i class="fa-solid fa-wind"></i></span>
+                    <span class="two-block">
+                        <span class="detail-heading">Wind speed</span>
+                        <span><span class="speed-no">0</span>M/s</span>
+                    </span>
+                </div>
+            </div>
+
+
+            <div class="day-wise">
+                <div class="card card-one">
+                    <h6>date</h6>
+                    <div class="card-temp-image">
+                        <img src="images.jpg" alter="temp image">
+                    </div>
+                    <h6 class="card-one-temp">temp'C</h6>
+                </div>
+
+                <div class="card card-two">
+                    <h6>date</h6>
+                    <div class="card-temp-image">
+                        <img src="images.jpg" alter="temp image">
+                    </div>
+                    <h6 class="card-two-temp">temp'C</h6>
+                </div>
+
+                <div class="card card-three">
+                    <h6>date</h6>
+                    <div class="card-temp-image">
+                        <img src="images.jpg" alter="temp image">
+                    </div>
+                    <h6 class="card-three-temp">temp'C</h6>
+                </div>
+
+                <div class="card card-four">
+                    <h6>date</h6>
+                    <div class="card-temp-image">
+                        <img src="images.jpg" alter="temp image">
+                    </div>
+                    <h6 class="card-three-temp">temp'C</h6>
+                </div>
+
+            </div>
+
+        </div>
+
+        <!--not found-->
+        <div class="screen not-found">
+            <div class="search-bar">
+                <input type="text" placeholder="Search City" required>
+                <span class="search-icon">
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                </span>
+            </div>
+            <img class='image-not-found' src="404.jpg">
+        </div>
+
+    </div>
+    <script src="app.js"></script>
+</body>
+
+</html>
