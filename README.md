@@ -16,7 +16,7 @@ A modern weather application built using **HTML, CSS, and JavaScript** that fetc
 
 | Search | Weather | Not Found |
 |--------|---------|-----------|
-| ![](starting.png) | ![](running.png) | ![](404.png) |
+| <img src="starting.png" alt="Starting Screen" width="100%" height="300px"/>|<img src="running.png" alt="Running Screen" width="100%"  height="300px"/>| <img src="404.png" alt="404 Screen" width="100%"  height="300px"/>|
 
 ---
 
