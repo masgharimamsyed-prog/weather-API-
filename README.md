@@ -3,12 +3,20 @@
 A modern weather application built using **HTML, CSS, and JavaScript** that fetches real-time weather data from the **OpenWeatherMap API**. Search any city to view the current weather conditions along with a multi-day forecast through a clean and responsive interface.
 
 ---
+## 🛠 Tech Stack
+
+![](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
+![](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
+![](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
+![](https://img.shields.io/badge/OpenWeatherMap-FFB300?style=for-the-badge)
+
+---
 
 ## 📸 Screenshots
 
 | Search | Weather | Not Found |
 |--------|---------|-----------|
-| ![](starting.png) | ![](running.png) | ![](notFound.png) |
+| ![](starting.png) | ![](running.png) | ![](404.png) |
 
 ---
 
@@ -35,14 +43,6 @@ A modern weather application built using **HTML, CSS, and JavaScript** that fetc
 
 ---
 
-## 🛠 Tech Stack
-
-![](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
-![](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
-![](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
-![](https://img.shields.io/badge/OpenWeatherMap-FFB300?style=for-the-badge)
-
----
 
 ## 📂 Project Structure
 
@@ -68,9 +68,9 @@ Weather-App/
 ## 🚀 Getting Started
 
 ```bash
-git clone https://github.com/masgharimamsyed-prog/weather-API-.git
+git clone https://github.com/masgharimamsyed-prog/Weather-App-.git
 
-cd weather-API-
+cd Weather-App
 
 open index.html
 ```
@@ -120,6 +120,7 @@ https://openweathermap.org/forecast5
 ---
 
 ## ⭐ Support
+Made with &#10084; by Asghar
 
 If you found this project helpful, please consider giving it a **⭐ Star**.
 
