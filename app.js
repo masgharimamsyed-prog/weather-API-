@@ -27,6 +27,7 @@ let screenStart = false;
 runningScreen.classList.add('noDisplay');
 notFoundScreen.classList.add('noDisplay');
 
+
 searchIcon.addEventListener('click', clickfunction);
 searchInput.addEventListener('keydown', clickfunction);
 
@@ -46,15 +47,14 @@ async function clickfunction() {
         catch (err) {
             console.log("error is happening while fetching data form API:", err);
         }
-
-        if (result.cod == 404) {
+        if (result.cod == '404') {
             notFoundScreen.classList.remove('noDisplay');
             runningScreen.classList.add('noDisplay');
         }
-        else if (result.cod == 200) {
+        else if(result.cod=='200'){
             notFoundScreen.classList.add('noDisplay');
             runningScreen.classList.remove('noDisplay');
-            console.log(result);
+
             /* Present temp */
             locationName.innerText = result.city.name;
             date.innerText = result.list["0"].dt_txt;
